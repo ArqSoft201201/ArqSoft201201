@@ -1,0 +1,10 @@
+<!ELEMENT DOC(TipoUsuario(NomeTipo,Usuario*)+)>
+<!ELEMENT Usuario(NomeUsuario,Senha,Turma*)>
+<!ELEMENT Turma(Disciplina,Horario*)>
+<!ELEMENT Disciplina(NomeDisciplina)>
+<!ELEMENT Horario(diaSemana+,horaInicio,horaFim)>
+<!ATTLIST TipoUsuario cdTipoUsuario #REQUIRED>
+<!ATTLIST Usuario cdUsuario #REQUIRED>
+<!ATTLIST Turma cdTurma #REQUIRED>
+<!ATTLIST Disciplina cdDisciplina #REQUIRED>
+<!ATTLIST Horario cdHorario #REQUIRED>

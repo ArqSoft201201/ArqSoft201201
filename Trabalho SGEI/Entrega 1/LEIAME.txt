@@ -1,0 +1,30 @@
+SOBRE A IMPLEMENTAÇÃO DO PROJETO SGRI:
+
+1. A linguagem usada para as implementações foi o PHP, usando-se o pacote de softwares WAMP(windows Apache, MySql and PHP) (Disponível em: http://www.wampserver.com/en/);
+2. Para o banco de dados, foi usado o SGBD oracle, versão 10.2.0.1.0 (Disponível em: http://www.oracle.com/technetwork/database/enterprise-edition/downloads/index.html);
+3. Foi usado também o framework PHP Kohana, na versão 3.2 (Disponível em: http://kohanaframework.org/download);
+4. Para implementações na parte do cliente(javascript), foi usado o framework JQuery(Disponível em: http://docs.jquery.com/Downloading_jQuery).
+
+SOBRE OS ARQUIVOS DISPONÍVEIS:
+Aqui, estão disponíveis os seguintes itens:
+1. Imagens contendo todas as interfaces propostas para o projeto SGRI;
+2. Diagrama de classes. Este está disponível nas extensões .oom (Pode ser aberto com o Power Designer, disponível em http://www.sybase.com.br/products/modelingdevelopment/powerdesigner) e em formato de imagem (extensão .png). O arquivo de extensão .oom também pode ser aberto no formato xml;
+3. Os diagramas de sequência dos casos de uso "Gerenciar Equipamentos e Salas", "Gerenciar Usuario", "Importar Professores e Funcionarios", "Reserva de Equipamentos e Salas", com os mesmos formatos do tópico anterior.
+4. Arquivo de texto contendo os contratos para as operações dos mesmos casos de uso do tópico anterior;
+5. O arquivo .xml e do DTD do mesmo, para a operação de "importação de usuários" para o sistema;
+6. Os códigos do projeto SGRI e os scripts para criação do banco de dados usados para o mesmo.
+
+
+SOBRE A CONFIGURAÇÃO DO SERVIDOR APACHE:
+Para o funcionamento correto da aplicação usando o Framework Kohana e o acesso ao Banco de dados Oracle, os arquivos de configuração do servidor Apache foram alterados (estas alterações tratam-se de habilitação de módulos que são necessários para ambos, mas que vêm desabilitados por padrão). Estes arquivos alterados estão disponíveis no diretorio "configuracoes". O caminho dos arquivos pode ser encontrado no phpinfo, disponibilizado na pagina de localhost do servidor, ou pelo comando phpinfo().
+
+
+Para esta primeira entrega, foram feitas as implementações das telas de Gerenciamento de Recursos (Equipamentos e salas), nos modos de visualização em formulário e Grid. Para acessar o mesmo, deve-se acessar a URL http://localhost/sgri.
+Como ainda não foram implementados os controles de acesso e a tela de login, toda operação está sendo feita com um usuário padrão (admin_infra).
+
+
+Integrantes:
+Camila Luana de Andrade
+Jéssica Braga da Cruz Lopes
+Paulo Henrique Fernandes Pereira
+Renan Martins da Costa Pullig

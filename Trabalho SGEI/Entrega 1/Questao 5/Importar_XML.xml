@@ -1,0 +1,60 @@
+<DOC>
+	<TipoUsuario cdTipoUsuario="1">
+		<NomeTipo>Professor</NomeTipo>
+		<Usuario cdUsuario="1">
+			<NomeUsuario>José João da Silva</NomeUsuario>
+			<Senha>*****</senha>
+			<Turma cdTurma="300">
+				<Disciplina cdDisciplina="3">
+					<NomeDisciplina>Projeto de Sistemas de Informação</NomeDisciplina>
+				</Disciplina>
+				<Horario cdHorario="30001">
+					<diaSemana>Segunda-Feira</diaSemana>
+					<horaInicio>19:00</horaInicio>
+					<horaFim>20:40</horaFim>
+				</Horario>
+				<Horario cdHorario="30002">
+					<diaSemana>Quinta-Feira</diaSemana>
+					<horaInicio>19:00</horaInicio>
+					<horaFim>20:40</horaFim>
+				</Horario>
+			</Turma>
+			<Turma cdTurma="200">
+				<Disciplina cdDisciplina="2">
+					<NomeDisciplina>Laborátorio de Informatica</NomeDisciplina>
+				</Disciplina>
+				<Horario cdHorario="20001">
+					<diaSemana>Sexta-Feira</diaSemana>
+					<horaInicio>19:00</horaInicio>
+					<horaFim>20:40</horaFim>
+				</Horario>
+			</Turma>
+		</Usuario>
+		<Usuario cdUsuario="2">
+			<NomeUsuario>João José da Silva</NomeUsuario>
+			<Senha>*****</senha>
+			<Turma cdTurma="400">
+				<Disciplina cdDisciplina="4">
+					<NomeDisciplina>Banco de Dados</NomeDisciplina>
+				</Disciplina>
+				<Horario cdHorario="40001">
+					<diaSemana>Segunda-Feira</diaSemana>
+					<horaInicio>20:50</horaInicio>
+					<horaFim>22:30</horaFim>
+				</Horario>
+				<Horario cdHorario="40002">
+					<diaSemana>Quinta-Feira</diaSemana>
+					<horaInicio>20:50</horaInicio>
+					<horaFim>22:30</horaFim>
+				</Horario>
+			</Turma>
+		</Usuario>
+	</TipoUsuario>
+	<TipoUsuario cdTipoUsuario="2">
+		<NomeTipo>Funcionário</NomeTipo>
+		<Usuario cdUsuario="3">
+			<NomeUsuario>Maria Eduarda da Silva</NomeUsuario>
+			<Senha>*****</senha>
+		</Usuario>
+	</TipoUsuario>
+</DOC>
