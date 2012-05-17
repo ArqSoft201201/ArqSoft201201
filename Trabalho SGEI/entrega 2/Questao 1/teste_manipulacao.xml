@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<USUARIOS>
+	<USUARIO>
+		<!--Caso de sucesso: todos os dados foram inseridos corretamente-->
+		<NOME>Professor 1</NOME>
+		<SENHA>123</SENHA>
+		<TIPO>2</TIPO>
+	</USUARIO>
+	<USUARIO>
+		<!--Caso de erro 1: Um dos dados nao foi inserido-->
+		<NOME>Teste Erro</NOME>
+		<SENHA></SENHA>
+		<TIPO>3</TIPO>
+	</USUARIO>
+	<USUARIO>
+		<!--Caso de erro 2: O tipo inserido não é válido.-->
+		<NOME>tipo errado</NOME>
+		<SENHA>123</SENHA>
+		<TIPO>4</TIPO>
+	</USUARIO>
+	<USUARIO>
+		<!--Tipo de sucesso 2: Sucesso de insercao apos erro.-->
+		<NOME>Coordenador 1</NOME>
+		<SENHA>321</SENHA>
+		<TIPO>3</TIPO>
+	</USUARIO>
+	<USUARIO>
+		<!--Tipo de sucesso 2: Sucesso de insercao apos erro.-->
+		<NOME>Infra 1</NOME>
+		<SENHA>231</SENHA>
+		<TIPO>2</TIPO>
+	</USUARIO>
+</USUARIOS>

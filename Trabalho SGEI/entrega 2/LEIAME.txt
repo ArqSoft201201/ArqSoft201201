@@ -1,0 +1,4 @@
+Aqui, estão disponíveis os seguintes itens:
+1. Codigos do projeto do sistema de Gerenciamento de Recursos. Junto com o projeto, também está sendo enviado um arquivo .xml, com o template do que pode ser usado para importação de usuários (professores e funcionários).
+2. Diagramas de interação dos casos de uso de "Efetuar reserva de equipamentos", "Gerenciar equipamentos e salas", "Importar professores e funcionários";
+3. Diagrama de classe, no padrão GRASP
