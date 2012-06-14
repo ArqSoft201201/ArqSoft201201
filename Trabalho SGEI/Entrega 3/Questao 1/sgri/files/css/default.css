@@ -1,0 +1,7 @@
+tr.selected{
+    background-color: #ccd232 !important;
+}
+
+tr.odd {
+    background-color: #93C3CD;
+}
